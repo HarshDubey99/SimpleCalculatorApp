@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HD-CALCULATOR</title>
+    <!-- External Links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <section>
+        <div class="container-fluid text-center bg-dark" id="bodyContainer">
+            <div class="row justify-content-center">                
+                <div class="col-md-12 my-4">
+                    <h1 id="headingText">HD-CALCULATOR</h1>
+                </div>
+                <div class="col-md-4 mb-5 p-5 text-center shadow-lg" id="calculatorBox">
+                    <!-- I/O Screen Box -->
+                    <div id="screenBox">
+                        <div id="prevBox">
+                            <h1 id="prevValue"></h1>
+                        </div>
+                        <div id="outputBox">
+                            <h1 id="outputValue"></h1>
+                        </div>
+                    </div>
+                    <!-- /End -->
+                    <!-- KeyBox -->
+                    <div id="keyBox">
+                        <button class="operator" id="clear">C</button>
+                        <button class="operator" id="backspace">CE</button>
+                        <button class="operator" id="%">%</button>
+                        <button class="operator" id="/">&#247;</button>
+                        <button class="number" id="7">7</button>
+                        <button class="number" id="8">8</button>
+                        <button class="number" id="9">9</button>
+                        <button class="operator" id="*">&times;</button>
+                        <button class="number" id="4">4</button>
+                        <button class="number" id="5">5</button>
+                        <button class="number" id="6">6</button>
+                        <button class="operator" id="-">-</button>
+                        <button class="number" id="1">1</button>
+                        <button class="number" id="2">2</button>
+                        <button class="number" id="3">3</button>
+                        <button class="operator" id="+">+</button>
+                        <button class="empty" id="empty"></button>
+                        <button class="number" id="0">0</button>
+                        <button class="empty" id="empty"></button>
+                        <button class="operator" id="=">=</button>
+                    </div>
+                    <!-- /End -->
+                </div>
+            </div>
+        </div>
+    </section>    
+
+
+
+    <!-- DON'T DELETE FOLLOWING FILES -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script>AOS.init();</script>
+</body>
+</html>
